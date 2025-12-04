@@ -1,0 +1,33 @@
+# --- 基础依赖 ---
+python-dotenv>=1.0.0
+requests>=2.31.0
+scikit-learn
+jieba
+fastapi
+uvicorn
+gradio
+python-dotenv
+python-docx
+PyPDF2
+markdown
+openai
+bs4
+# --- 数据库访问 ---
+pymysql>=1.1.0
+
+# --- 向量检索与 RAG ---
+langchain>=0.1.13
+chromadb>=0.4.22
+sentence-transformers>=2.2.2
+langchain-community
+
+# --- HuggingFace 用于 Embedding ---
+transformers>=4.40.0
+torch>=2.0.0
+accelerate>=0.29.2
+
+# --- 可选：如果你用 tavily 网络搜索 ---
+tavily-python>=0.3.0  # 如使用 Tavily 网络搜索 API，可保留
+
+# --- 可选：测试和调试 ---
+ipython
